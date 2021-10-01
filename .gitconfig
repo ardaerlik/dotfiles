@@ -1,0 +1,24 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Arda Erlik
+	email = aerlik20@ku.edu.tr
+[core]
+	autocrlf = input
+	editor = code --wait
+[color]
+	ui = auto
+[color "diff"]
+	old = red strike
+	new = green italic
+[alias]
+	graph = log --graph --all
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[init]
+	defaultBranch = master
