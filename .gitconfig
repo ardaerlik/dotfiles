@@ -4,8 +4,8 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = Arda Erlik
-	email = aerlik20@ku.edu.tr
+	name = your name
+	email = your email address
 [core]
 	autocrlf = input
 	editor = code --wait
@@ -21,4 +21,4 @@
 [difftool "vscode"]
 	cmd = "code --wait --diff $LOCAL $REMOTE"
 [init]
-	defaultBranch = master
+	defaultBranch = main
