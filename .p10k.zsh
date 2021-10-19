@@ -604,7 +604,7 @@
   typeset -g POWERLEVEL9K_DISABLE_HOT_RELOAD=true
   
   (( ! $+functions[p10k] )) || p10k reload
-}
+  }
 
   typeset -g POWERLEVEL9K_CONFIG_FILE=${${(%):-%x}:a}
 
