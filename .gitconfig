@@ -4,16 +4,22 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = your name
-	email = your email address
+	name = Arda Erlik
+	email = aerlik20@ku.edu.tr
 [core]
 	autocrlf = input
 	editor = code --wait
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [color]
-	ui = auto
+	ui = true
 [color "diff"]
-	old = red strike
-	new = green italic
+	old = red bold
+	new = green bold
+	meta = 11
+	frag = magenta bold
+	func = 146 bold
+	commit = yellow bold
+	whitespace = red reverse
 [alias]
 	graph = log --graph --all
 [diff]
@@ -22,3 +28,10 @@
 	cmd = "code --wait --diff $LOCAL $REMOTE"
 [init]
 	defaultBranch = main
+[interactive]
+	diffFilter = diff-so-fancy --patch
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
