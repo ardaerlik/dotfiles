@@ -4,8 +4,8 @@
 	process = git-lfs filter-process
 	required = true
 [user]
-	name = Arda Erlik
-	email = aerlik20@ku.edu.tr
+	name = YOUR_NAME
+	email = YOUR_EMAIL
 [core]
 	autocrlf = input
 	editor = code --wait
