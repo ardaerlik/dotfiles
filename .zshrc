@@ -13,7 +13,7 @@ HIST_STAMPS="dd.mm.yyyy"
 plugins=( 
 	git
 	colored-man-pages
-	osx
+	macos
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
